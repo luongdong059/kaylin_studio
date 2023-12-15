@@ -5,11 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "kaylin_production",
+            "name": "kaylin_staging",
             "request": "launch",
             "type": "dart",
-            "program": "lib/app_production.dart",
-            "args": ["--flavor", "production", "--target", "lib/app_production.dart" ]
+            "program": "lib/app_staging.dart",
+            "args": ["--flavor", "staging", "--target", "lib/app_staging.dart" ]
         }
     ]
 }

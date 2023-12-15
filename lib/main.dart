@@ -82,9 +82,7 @@ class _LaunchBrowerState extends State<LaunchBrower> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(
-        child: Webview(url: AppConfigs.instance.values.odooHost),
-      ),
+      body: Webview(url: AppConfigs.instance.values.odooHost),
     );
   }
 }
